@@ -1,1 +1,1 @@
-%% MATLAB code goes this folder
+% MATLAB code goes this folder
