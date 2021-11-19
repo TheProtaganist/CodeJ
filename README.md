@@ -9,6 +9,7 @@ pip install -r requirements.txt
 first set everything up (Note: you can change the temperature to a higher value for more creative results)
 ```python
 from CodeJ import GenerationJ
+```
 
 lang = "Python"
 temperature = 0.6
