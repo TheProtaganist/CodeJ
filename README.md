@@ -17,8 +17,8 @@ top_p = 1.0
 Now call the method to generate text
 J = GenerationJ("file_name")
 ```
-```python
 Now call the method to generate text
+```python
 J.generate("Python", temperature, top_p, "Make a square", "Make a triangle using turtle")
 ```
 For Both the gptj and codex version you can pass as many prompts as you want
