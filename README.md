@@ -28,7 +28,7 @@ For Both the gptj and codex version you can pass as many prompts as you want
 from CodeJ import Generation3
 
 temperature = 0.3
-gpt3 = Generation3("Temp", "Replace with your API key")
+gpt3 = Generation3("file_name", "Replace with your API key")
 gpt3.generation("Python", 0.416, "Make a square using the turtle module", "Add take the power of numbers in an array", "Print CodeJ is awesome")
 ```
 ## Supported Languages
