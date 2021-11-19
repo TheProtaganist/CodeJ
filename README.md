@@ -14,7 +14,6 @@ lang = "Python"
 temperature = 0.6
 top_p = 1.0
 ```python
-Now call the method to generate text
 J = GenerationJ("file_name")
 ```
 Now call the method to generate text
