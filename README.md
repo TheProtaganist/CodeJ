@@ -31,6 +31,11 @@ temperature = 0.3
 gpt3 = Generation3("Temp", "Replace with your API key")
 gpt3.generation("Python", 0.416, "Make a square using the turtle module", "Add take the power of numbers in an array", "Print CodeJ is awesome")
 ```
+## Supported Languages
+```python
+Languages = ["MATLAB", "Julia", "C#", "Python", "Python3", "C++", "Q#", "F#", "JavaScript", "Kotlin", "Dart", "Java", "C", "CSS", "HTML"]
+```
+## Resources
 Sign up for an api-key here https://beta.openai.com/signup
 Use the free Gpt-J version if you want as well
 
