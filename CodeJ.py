@@ -1,7 +1,7 @@
 import openai as op
 from Prompts import Programming_Languages
 from Context import programming_language_contexts, programming_language_examples
-from GPTJ.gptj_api import Completion as completion
+from gpt_j.gptj_api import Completion as completion
 
 
 class Generation3:
