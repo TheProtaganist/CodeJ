@@ -437,7 +437,3 @@ class GenerationJ:
                     f.write("\n\n")
 
         save_to_file(self.output_file, programming_languages)
-
-
-
-
