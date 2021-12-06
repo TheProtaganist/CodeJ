@@ -317,7 +317,7 @@ class GenerationJ:
             for i in (list_of_examples):
                 Prompt = i + period
                 context_settings = completion(context, prompt)
-                response = context_settings.completion(prompt=Prompt, user="User", bot="Quantum Coder", max_tokens=333, temperature=temperature, top_p=top_p)
+                response = context_settings.completion(prompt=Prompt, user="User", bot="Quantum Coder", temperature=temperature, top_p=top_p, top_k=40, seed=0, stream=True)
                 inputs.append(i)
                 outputs.append(response)
             return [inputs, outputs]
